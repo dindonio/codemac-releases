@@ -1,7 +1,7 @@
 # CodeMac++ Downloads
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dindonio/codemac-plus-plus/main/assets/icon.png" width="128" height="128">
+  <img src="assets/icon.png" width="128" height="128">
 </p>
 
 <h2 align="center">CodeMac++</h2>
