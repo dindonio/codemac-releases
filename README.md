@@ -36,9 +36,10 @@ xattr -cr /Applications/CodeMac++.app
 - AI integration (Claude, OpenAI, Gemini)
 - Git & GitHub integration
 - Side-by-side Compare/Diff
+- Language Server Protocol (LSP) — auto-completion, hover, go-to-definition, diagnostics
 - Integrated Terminal
 - Command Palette, Quick Open
-- And 70+ more features
+- And 75+ more features
 
 For full documentation, visit the project page.
 
