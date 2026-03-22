@@ -1,7 +1,7 @@
-# CodeMac++ Downloads
+# CodeMac++
 
 <p align="center">
-  <img src="assets/icon.png" width="128" height="128">
+  <img src="assets/icon.png" width="128" height="128" alt="CodeMac++ Icon">
 </p>
 
 <h2 align="center">CodeMac++</h2>
@@ -11,43 +11,51 @@
   By Antonio Scognamiglio
 </p>
 
-## Download
-
-Download the latest version from the [Releases](https://github.com/dindonio/codemac-releases/releases) page.
-
-### Requirements
-- macOS 14+ (Sonoma)
-
-### Installation
-1. Download the `.dmg` file
-2. Open the DMG
-3. Drag CodeMac++ to your Applications folder
-4. Launch from Applications
-
-If macOS shows a security warning:
-```bash
-xattr -cr /Applications/CodeMac++.app
-```
-
-## Features
-
-- 31 language syntax highlighting (including FortiOS)
-- 6 color themes with orange accent
-- AI integration (Claude, OpenAI, Gemini)
-- Git & GitHub integration
-- Side-by-side Compare/Diff
-- Language Server Protocol (LSP) — auto-completion, hover, go-to-definition, diagnostics
-- Integrated Terminal
-- Command Palette, Quick Open
-- And 75+ more features
-
-For full documentation, visit the project page.
-
-## Auto-Update
-
-CodeMac++ checks for updates automatically once per day.
-You can also check manually via Help → Check for Updates.
+<p align="center">
+  <a href="https://apps.apple.com/app/codemac/id6760980848"><img src="https://img.shields.io/badge/Mac_App_Store-Download-blue?logo=apple&logoColor=white&style=for-the-badge" alt="Download on the Mac App Store"></a>
+</p>
 
 ---
 
-By Antonio Scognamiglio
+## Download
+
+**[Download CodeMac++ on the Mac App Store](https://apps.apple.com/app/codemac/id6760980848)**
+
+Requires macOS 15+ (Sequoia).
+
+---
+
+## Features
+
+- **Custom Core Text rendering engine** — instant loading of large files, 60fps scrolling
+- **Syntax highlighting** for 31 languages (10 with tree-sitter AST parsing)
+- **AI integration** — Claude, OpenAI, Google Gemini (bring your own API key)
+- **Git integration** — status, blame, push, pull, commit
+- **Language Server Protocol** — auto-completion, hover, go-to-definition, diagnostics
+- **Find & Replace** with regex, Find in Files
+- **Code folding**, bookmarks, multi-cursor editing
+- **Minimap**, split view, distraction-free mode
+- **6 built-in themes** including One Dark
+- **Snippet system**, macro recording, clipboard history
+- **Compare / Diff** — side-by-side, compare with saved/clipboard/HEAD
+- **110+ features** for professional development
+
+---
+
+## Privacy
+
+CodeMac++ does not collect any personal data. AI features are opt-in and require your own API key.
+
+See the full [Privacy Policy](PRIVACY_POLICY.md).
+
+---
+
+## Support
+
+For issues or feedback, please open an [issue](https://github.com/dindonio/codemac-releases/issues).
+
+---
+
+<p align="center">
+  Copyright © 2026 Antonio Scognamiglio. All rights reserved.
+</p>
