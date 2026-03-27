@@ -86,6 +86,12 @@ Requires macOS 15+ (Sequoia).
 
 ---
 
+## Documentation
+
+See the full [User Guide](USERGUIDE.md) for detailed instructions on all features, menus, keyboard shortcuts, and settings.
+
+---
+
 ## Privacy
 
 CodeMac++ does not collect any personal data. AI features are opt-in and require your own API key.
