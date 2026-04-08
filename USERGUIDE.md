@@ -1,6 +1,6 @@
-# CodeMac++ User Guide
+# CodeMax++ User Guide
 
-CodeMac++ is a native macOS code editor built with Swift and a custom Core Text rendering engine. It supports 31 programming languages, AI-powered coding assistance, Git integration, Language Server Protocol, and over 110 features designed for professional developers.
+CodeMax++ is a native macOS code editor built with Swift and a custom Core Text rendering engine. It supports 31 programming languages, AI-powered coding assistance, Git integration, Language Server Protocol, and over 110 features designed for professional developers.
 
 **Requirements:** macOS 15 (Sequoia) or later.
 
@@ -10,13 +10,13 @@ CodeMac++ is a native macOS code editor built with Swift and a custom Core Text 
 
 ### Opening the App for the First Time
 
-When you launch CodeMac++, a new empty tab is created automatically. You can start typing immediately, open a file, or open an entire project folder.
+When you launch CodeMax++, a new empty tab is created automatically. You can start typing immediately, open a file, or open an entire project folder.
 
-If you previously had tabs open, CodeMac++ restores them automatically on launch (when the Restore Tabs setting is enabled).
+If you previously had tabs open, CodeMax++ restores them automatically on launch (when the Restore Tabs setting is enabled).
 
 ### Interface Overview
 
-The CodeMac++ window is organized into these areas:
+The CodeMax++ window is organized into these areas:
 
 - **Menu Bar** -- The system menu bar at the top of the screen with File, Edit, View, AI, Search, Compare, Encoding, Language, Git, Tools, Window, and Help menus.
 - **Activity Bar** -- A narrow vertical strip on the far left with icons for switching sidebar panels (file explorer, Git status, search).
@@ -31,8 +31,8 @@ The CodeMac++ window is organized into these areas:
 - **Open a file:** `Cmd+O` or File > Open.
 - **Open a folder:** `Cmd+Shift+O` or File > Open Folder. This populates the sidebar with a file tree.
 - **Quick Open:** `Cmd+P` to fuzzy-search files in the current folder by name.
-- **Open from Finder:** Right-click any supported file in Finder, choose Open With > CodeMac++.
-- **Drag and drop:** Drag files onto the CodeMac++ window to open them.
+- **Open from Finder:** Right-click any supported file in Finder, choose Open With > CodeMax++.
+- **Drag and drop:** Drag files onto the CodeMax++ window to open them.
 
 ---
 
@@ -172,7 +172,7 @@ You can also click the fold arrows in the gutter next to function definitions, c
 
 ### Snippets
 
-Edit > Insert Snippet opens a browser showing available snippets for the current language. CodeMac++ includes 50+ built-in snippets. In the editor, type a snippet trigger word and press `Tab` to expand it.
+Edit > Insert Snippet opens a browser showing available snippets for the current language. CodeMax++ includes 50+ built-in snippets. In the editor, type a snippet trigger word and press `Tab` to expand it.
 
 ---
 
@@ -186,7 +186,7 @@ The Command Palette provides fuzzy-search access to 50+ commands. Start typing a
 
 ### Themes
 
-CodeMac++ ships with six built-in themes. Switch via View > Themes or through Settings.
+CodeMax++ ships with six built-in themes. Switch via View > Themes or through Settings.
 
 | Theme | Description |
 |-------|-------------|
@@ -251,12 +251,12 @@ The Preview panel appears to the right of the editor. For Markdown files, you ca
 
 ## AI Menu
 
-CodeMac++ integrates with three AI providers: **Anthropic Claude**, **OpenAI GPT-4**, and **Google Gemini**.
+CodeMax++ integrates with three AI providers: **Anthropic Claude**, **OpenAI GPT-4**, and **Google Gemini**.
 
 ### Setting Up AI Features
 
 1. The first time you use any AI feature, a consent dialog explains that your code will be sent to the selected AI provider.
-2. Go to AI > AI Settings (or CodeMac++ > Settings > AI) to configure:
+2. Go to AI > AI Settings (or CodeMax++ > Settings > AI) to configure:
    - **Provider** -- Choose Claude, OpenAI, or Gemini.
    - **Model** -- Select the specific model.
    - **API Key** -- Enter your own API key. It is stored securely in the macOS Keychain.
@@ -284,7 +284,7 @@ Open via AI > AI Chat Panel. This is a conversational interface where you can:
 
 ### AI Copilot (Inline Suggestions)
 
-As you type, CodeMac++ can show ghost text suggestions inline. Press `Tab` to accept a suggestion or `Escape` to dismiss it. This feature uses the AI provider configured in settings.
+As you type, CodeMax++ can show ghost text suggestions inline. Press `Tab` to accept a suggestion or `Escape` to dismiss it. This feature uses the AI provider configured in settings.
 
 ---
 
@@ -331,7 +331,7 @@ Use marks to visually track multiple terms while reading code.
 
 ## Compare Menu
 
-CodeMac++ includes a built-in diff engine that shows side-by-side comparisons in a split tab.
+CodeMax++ includes a built-in diff engine that shows side-by-side comparisons in a split tab.
 
 | Action | Description |
 |--------|-------------|
@@ -363,7 +363,7 @@ The current encoding is shown in the status bar. Changing the encoding re-interp
 
 ## Language Menu
 
-Manually set the syntax highlighting language for the current file. CodeMac++ auto-detects the language based on file extension, but you can override it here.
+Manually set the syntax highlighting language for the current file. CodeMax++ auto-detects the language based on file extension, but you can override it here.
 
 31 languages are supported:
 
@@ -407,7 +407,7 @@ Displays statistics about the current file: line count, word count, character co
 
 ### Language Server (LSP)
 
-CodeMac++ can connect to Language Server Protocol servers for enhanced code intelligence. It auto-discovers 13 language servers if they are installed on your system.
+CodeMax++ can connect to Language Server Protocol servers for enhanced code intelligence. It auto-discovers 13 language servers if they are installed on your system.
 
 Available under Tools > Language Server:
 
@@ -454,7 +454,7 @@ Tools for transforming selected text:
 |--------|----------|-------------|
 | Minimize | `Cmd+M` | Minimize the window to the Dock. |
 | Zoom | -- | Toggle between normal and full-screen-like window size. |
-| Always on Top | -- | Keep the CodeMac++ window above all other windows. |
+| Always on Top | -- | Keep the CodeMax++ window above all other windows. |
 
 ---
 
@@ -463,13 +463,13 @@ Tools for transforming selected text:
 | Action | Shortcut | Description |
 |--------|----------|-------------|
 | Keyboard Shortcuts | `Cmd+/` | Open a reference sheet showing all keyboard shortcuts. |
-| About CodeMac++ | -- | Show version information and credits. |
+| About CodeMax++ | -- | Show version information and credits. |
 
 ---
 
 ## Settings
 
-Open Settings with `Cmd+,` or via the CodeMac++ menu.
+Open Settings with `Cmd+,` or via the CodeMax++ menu.
 
 ### General
 
@@ -498,7 +498,6 @@ Open Settings with `Cmd+,` or via the CodeMac++ menu.
 ### Sync
 
 - **iCloud Sync** -- Synchronize settings across your devices via iCloud.
-- **Spotlight Integration** -- Index open files for Spotlight search.
 
 ### AI
 
